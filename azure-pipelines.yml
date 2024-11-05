@@ -18,7 +18,7 @@ steps:
   - task: Docker@2
     inputs:
       command: 'buildAndPush'
-      repository: 'thiagodasilvamenezes@gmail.com/unyleya_projeto_cicd_name'
+      repository: 'thiagodasilvamenezes/unyleya_projeto_cicd_thiago_menezes'
       tags: 'latest'
       containerRegistry: 'DockerHub'
       Dockerfile: '**/Dockerfile'
